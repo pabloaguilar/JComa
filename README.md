@@ -1,13 +1,12 @@
-JComa
-=====
+# JComa
 
 Course management component for Joomla.
 <Longer description goes here>
 
-Features:
----------
+## Features:
+
 Manages course registrations, grades and teaching material
 
-Requirements:
--------------
+## Requirements:
+
 Joomla! 1.6+
