@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE install
+  PUBLIC "-//Joomla! 1.5//DTD plugin 1.0//EN" "http://www.joomla.org/xml/dtd/1.5/plugin-install.dtd">
+
+  <source lang="xml">
+  <install version="1.5" type="plugin" group="content">
+  <name>Name of your Content Plugin</name>
+  <creationDate>Created Date</creationDate>
+  <author>Your name</author>
+  <authorEmail>Your e-mail address</authorEmail>
+  <authorUrl>Your website</authorUrl>
+  <copyright>Copyright</copyright>
+  <license>License, for example GNU/GPL</license>
+  <version>Version of the plugin</version>
+  <description>Description of the Plugin; showed with installation and when editing 
+  the Plugin in the Plugin Manager
+  </description>
+  
+  <files>
+   <filename plugin="nameofplugin">nameofplugin.php</filename>
+  </files>
+  <languages>
+   <language tag="en-GB">en-GB.plg_content_nameofplugin.ini</language>
+  </languages>
+  <params>
+   <param name="paramname" type="typeofparameter" default="defaultsetting" label="title" description="description"/>
+  </params>
+  </install>
+  </source>
