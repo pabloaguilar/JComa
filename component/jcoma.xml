@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.6.0" method="upgrade">
+ 
+	<name>JComa</name>
+	<creationDate>July 2011</creationDate>
+	<author>Pablo Aguilar</author>
+	<authorEmail>pablo.aguilar@gmail.command</authorEmail>
+	<!-- <authorUrl>http://www.example.org</authorUrl> -->
+	<!-- <copyright>Copyright Info</copyright> -->
+	<license>GPL v3</license>
+	<!--  The version string is recorded in the components table -->
+	<version>0.1.0</version>
+	<!-- The description is optional and defaults to the name -->
+	<description>
+    Joomla course manager.
+    Component for managing course registrations, teaching materials and grades.
+  </description>
+ 
+	<update>
+		<schemas>
+			<schemapath type="mysql">sql/updates/mysql</schemapath>
+		</schemas>
+	</update>
+ 
+	<!-- Site Main File Copy Section -->
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>jcoma.php</filename>
+    <filename>controller.php</filename>
+    <folder>views</folder>
+	</files>
+ 
+	<administration>
+		<!-- Administration Menu Section -->
+		<menu>JComa</menu>
+
+		<!-- Administration Main File Copy Section -->
+		<files folder="admin">
+			<!-- Admin Main File Copy Section -->
+			<filename>index.html</filename>
+			<filename>jcoma.php</filename>
+			<!-- SQL files section -->
+			<folder>sql</folder>
+		</files>
+	</administration>
+ 
+</extension>
